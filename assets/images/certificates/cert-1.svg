@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  <rect x="20" y="20" width="360" height="260" rx="4" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="8" rx="4" fill="#0078d4"/>
+  <!-- Microsoft logo area -->
+  <rect x="40" y="50" width="24" height="24" fill="#f25022"/>
+  <rect x="66" y="50" width="24" height="24" fill="#7fba00"/>
+  <rect x="40" y="76" width="24" height="24" fill="#00a4ef"/>
+  <rect x="66" y="76" width="24" height="24" fill="#ffb900"/>
+  <text x="200" y="70" text-anchor="middle" fill="#0078d4" font-family="Arial,sans-serif" font-size="14" font-weight="bold">Microsoft</text>
+  <text x="200" y="130" text-anchor="middle" fill="#1e293b" font-family="Georgia,serif" font-size="18" font-weight="bold">Power BI Data Analyst</text>
+  <text x="200" y="160" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="12">Certificate of Achievement</text>
+  <line x1="80" y1="190" x2="320" y2="190" stroke="#e2e8f0"/>
+  <text x="200" y="220" text-anchor="middle" fill="#9333ea" font-family="Georgia,serif" font-size="16" font-style="italic">Denitsa Ilieva</text>
+  <text x="200" y="260" text-anchor="middle" fill="#94a3b8" font-size="10">June 2024</text>
+</svg>

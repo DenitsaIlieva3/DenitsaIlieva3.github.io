@@ -1,0 +1,430 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.css");
+/**
+ * Do not edit directly
+ * Generated on Thu, 16 Feb 2023 17:46:04 GMT
+ */
+:root {
+  --ps-action-background: #4A33D1;
+  --ps-action-background-hover: #3C28B1;
+  --ps-action-background-active: #30208D;
+  --ps-action-background-weak: #24186A;
+  --ps-action-background-weak-hover: #30208D;
+  --ps-action-background-weak-active: #24186A;
+  --ps-action-border: #6855D9;
+  --ps-action-border-focus: #3895FF;
+  --ps-action-navigation: #3895FF;
+  --ps-action-navigation-hover: #3895FF;
+  --ps-action-navigation-visited: #B17DD4;
+  --ps-action-text: #E1DDF7;
+  --ps-action-text-weak: #A499E8;
+  --ps-action-text-medium: #8677E0;
+  --ps-action-text-inverse: #E1DDF7;
+  --ps-danger-background: #B9004B;
+  --ps-danger-background-hover: #8B0038;
+  --ps-danger-background-active: #5C0026;
+  --ps-danger-border: #FF1675;
+  --ps-danger-surface: #5C0026;
+  --ps-danger-text: #FFF0F6;
+  --ps-danger-text-weak: #FFA2C8;
+  --ps-danger-text-medium: #FF73AC;
+  --ps-danger-text-inverse: #FFF0F6;
+  --ps-background: #393B6B;
+  --ps-background-hover: #404376;
+  --ps-background-active: #2D2D55;
+  --ps-border: #404376;
+  --ps-border-weak: #2D2D55;
+  --ps-border-strong: #585FA2;
+  --ps-surface: #130F25;
+  --ps-surface-weak: #1B1834;
+  --ps-surface-medium: #242145;
+  --ps-surface-strong: #2A2753;
+  --ps-surface-inverse: #F3F3F8;
+  --ps-text: #D1D2E6;
+  --ps-text-weak: #8B90C1;
+  --ps-text-medium: #A5AACF;
+  --ps-text-strong: #F3F3F8;
+  --ps-text-inverse: #130F25;
+  --ps-info-border: #00A3FF;
+  --ps-info-surface: #003655;
+  --ps-info-text: #D5F0FF;
+  --ps-info-text-weak: #80D1FF;
+  --ps-info-text-medium: #2BB2FF;
+  --ps-success-border: #02E088;
+  --ps-success-surface: #014B2D;
+  --ps-success-text: #D0FFEC;
+  --ps-success-text-weak: #43FDB4;
+  --ps-success-text-medium: #02BB71;
+  --ps-warning-border: #FFBA0D;
+  --ps-warning-surface: #6B4C00;
+  --ps-warning-text: #FFF6E0;
+  --ps-warning-text-weak: #FFE4A1;
+  --ps-warning-text-medium: #FFD262;
+}
+
+/**
+ * Do not edit directly
+ * Generated on Thu, 16 Feb 2023 17:46:03 GMT
+ */
+html[data-theme=light], .pando-light {
+  --ps-action-background: #3C28B1;
+  --ps-action-background-hover: #30208D;
+  --ps-action-background-active: #24186A;
+  --ps-action-background-weak: #E1DDF7;
+  --ps-action-background-weak-hover: #C3BBF0;
+  --ps-action-background-weak-active: #A499E8;
+  --ps-action-border: #0969DA;
+  --ps-action-border-focus: #3895FF;
+  --ps-action-navigation: #0969DA;
+  --ps-action-navigation-hover: #0969DA;
+  --ps-action-navigation-visited: #8C40BF;
+  --ps-action-text: #F4F7FA;
+  --ps-action-text-weak: #24186A;
+  --ps-action-text-medium: #3C28B1;
+  --ps-action-text-inverse: #1A2737;
+  --ps-danger-background: #B9004B;
+  --ps-danger-background-hover: #8B0038;
+  --ps-danger-background-active: #5C0026;
+  --ps-danger-border: #FF4591;
+  --ps-danger-surface: #FFD0E3;
+  --ps-danger-text: #5C0026;
+  --ps-danger-text-weak: #B9004B;
+  --ps-danger-text-medium: #E7005E;
+  --ps-danger-text-inverse: #F4F7FA;
+  --ps-background: #D9E4F2;
+  --ps-background-hover: #DAE3EE;
+  --ps-background-active: #D1DFEF;
+  --ps-border: #C2D1E2;
+  --ps-border-weak: #DAE3EE;
+  --ps-border-strong: #89A4C7;
+  --ps-surface: #FFFFFF;
+  --ps-surface-weak: #f4f7fa;
+  --ps-surface-medium: #e8ecf2;
+  --ps-surface-strong: #e5e8eb;
+  --ps-surface-inverse: #1A2737;
+  --ps-text: #3E5674;
+  --ps-text-weak: #546F92;
+  --ps-text-medium: #4E6583;
+  --ps-text-strong: #1A2737;
+  --ps-text-inverse: #FFFFFF;
+  --ps-info-border: #00A3FF;
+  --ps-info-surface: #AAE0FF;
+  --ps-info-text: #003655;
+  --ps-info-text-weak: #005180;
+  --ps-info-text-medium: #0088D5;
+  --ps-success-border: #02BB71;
+  --ps-success-surface: #A1FED9;
+  --ps-success-text: #002517;
+  --ps-success-text-weak: #017044;
+  --ps-success-text-medium: #01955B;
+  --ps-warning-border: #FFBA0D;
+  --ps-warning-surface: #FFEDC0;
+  --ps-warning-text: #352600;
+  --ps-warning-text-weak: #A17300;
+  --ps-warning-text-medium: #D69900;
+}
+
+html {
+  background-color: var(--ps-surface);
+  box-sizing: border-box;
+  color: var(--ps-text);
+  font-family: "PS Commons", "Gotham SSm A", "Gotham SSm B", Arial, sans-serif;
+  font-feature-settings: "tnum" on, "lnum" on;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  text-rendering: geometricPrecision;
+  text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
+hr,
+table,
+fieldset,
+figure,
+pre {
+  margin: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--ps-border-weak);
+  outline: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--ps-border);
+  border-radius: 5px;
+  outline: none;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-variation-settings: "wght" 600;
+  font-weight: 600;
+}
+
+:is(h2, h3, h4, h5) {
+  line-height: 1.25;
+}
+
+:is(h4, h5, h6, strong, b) {
+  font-variation-settings: "wght" 700;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.black-heading {
+  font-weight: 800;
+}
+
+.display-l {
+  font-size: 5.5rem;
+}
+
+.display-m {
+  font-size: 4.5rem;
+}
+
+.display-s {
+  font-size: 3.5rem;
+}
+
+:is(small, p) {
+  font-variation-settings: "wght" 500;
+  font-weight: 500;
+}
+
+small.size-xs {
+  font-size: 0.75rem;
+}
+
+small {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+p.size-l {
+  font-size: 1.125rem;
+}
+
+p.size-xl {
+  font-size: 1.25rem;
+}
+
+p.size-xxl {
+  font-size: 1.5rem;
+}
+
+em {
+  font-family: "PS Commons Italic";
+}
+
+label {
+  font-size: 0.875rem;
+  font-variation-settings: "wght" 700;
+  font-weight: 700;
+}
+
+:is(code, kbd, samp) {
+  background-color: var(--ps-surface-strong);
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--ps-text-medium);
+  font-family: "DM Mono", sfmono-regular, menlo, monaco, consalas, "Liberation Mono", "Courier New", monospace;
+  font-size: 95%;
+  padding: 0.1rem 0.2rem;
+  vertical-align: middle;
+}
+
+kbd {
+  box-shadow: none;
+}
+
+mark::before,
+mark::after {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+mark::before {
+  content: " [highlight start] ";
+}
+
+mark::after {
+  content: " [highlight end] ";
+}
+
+.large-code {
+  font-size: 1.125rem;
+}
+
+.small-code {
+  font-size: 0.875rem;
+}
+
+.xs-code {
+  font-size: 0.75rem;
+}
+
+ul {
+  list-style: none;
+}
+
+dl,
+.ul-list {
+  line-height: 1.5;
+  margin-block-start: 1.25em;
+  padding-inline-start: 0.125em;
+}
+
+.ul-list-item {
+  list-style: none;
+  padding-inline-start: 1.25em;
+  position: relative;
+}
+
+.ul-list-item + .ul-list-item {
+  margin-block-start: 1em;
+}
+
+.ul-list-item::before {
+  background-color: var(--ps-border-strong);
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 0;
+  position: absolute;
+  top: 0.5em;
+  width: 0.5em;
+}
+
+.ul-list-item > .ul-list > .ul-list-item::before {
+  background-color: transparent;
+  border-color: var(--ps-border-strong);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.ul-list-item > .ul-list {
+  margin-block-end: 0;
+  margin-block-start: 1em;
+  padding-inline-start: 0;
+}
+
+dl {
+  column-gap: 1.5em;
+  display: grid;
+  grid-template-areas: "term definition";
+  grid-template-columns: fit-content(25%) fit-content(75%);
+  margin-inline-start: 0;
+  row-gap: 1em;
+}
+
+dt {
+  grid-column: term;
+}
+
+dd {
+  grid-column: definition;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img[width],
+img[height] {
+  max-width: none;
+}
+
+.psds-screenreader-only {
+  border: 0;
+  height: 1px;
+  left: -10000px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+body[data-modal-open=true] {
+  margin-left: 0;
+  margin-right: 0 !important;
+  margin-top: 0;
+  overflow: hidden !important;
+  overscroll-behavior: contain;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  position: relative !important;
+}
+
+/*# sourceMappingURL=normalize.css.map */

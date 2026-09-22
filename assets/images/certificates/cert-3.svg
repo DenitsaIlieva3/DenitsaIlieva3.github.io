@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#faf5ff"/>
+  <rect x="20" y="20" width="360" height="260" rx="4" fill="white" stroke="#e9d5ff" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="6" rx="3" fill="#9333ea"/>
+  <text x="200" y="70" text-anchor="middle" fill="#9333ea" font-family="Arial,sans-serif" font-size="13" font-weight="bold">Coursera</text>
+  <text x="200" y="130" text-anchor="middle" fill="#1e293b" font-family="Georgia,serif" font-size="20" font-weight="bold">SQL for Data Science</text>
+  <text x="200" y="165" text-anchor="middle" fill="#64748b" font-size="11">University of California, Davis</text>
+  <!-- SQL icon -->
+  <rect x="170" y="180" width="60" height="30" rx="6" fill="#9333ea" opacity="0.15"/>
+  <text x="200" y="200" text-anchor="middle" fill="#9333ea" font-family="monospace" font-size="14" font-weight="bold">SELECT</text>
+  <line x1="80" y1="220" x2="320" y2="220" stroke="#f3e8ff"/>
+  <text x="200" y="250" text-anchor="middle" fill="#9333ea" font-family="Georgia,serif" font-size="16" font-style="italic">Denitsa Ilieva</text>
+  <text x="200" y="270" text-anchor="middle" fill="#94a3b8" font-size="10">May 2023</text>
+</svg>

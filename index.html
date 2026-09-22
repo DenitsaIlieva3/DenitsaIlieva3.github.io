@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Denitsa Ilieva — Junior Data Analyst portfolio. KPMG Bulgaria, Technical University of Sofia.">
+  <title>Denitsa Ilieva | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+  <!-- Background chart decorations -->
+  <div class="bg-charts" aria-hidden="true">
+    <svg class="bg-chart bg-chart--1" viewBox="0 0 200 120"><polyline points="0,90 40,70 80,80 120,40 160,55 200,20" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    <svg class="bg-chart bg-chart--2" viewBox="0 0 200 120"><rect x="20" y="60" width="25" height="50" rx="4"/><rect x="60" y="40" width="25" height="70" rx="4"/><rect x="100" y="70" width="25" height="40" rx="4"/><rect x="140" y="25" width="25" height="85" rx="4"/></svg>
+    <svg class="bg-chart bg-chart--3" viewBox="0 0 120 120"><circle cx="60" cy="60" r="45" fill="none" stroke="currentColor" stroke-width="12" stroke-dasharray="180 100" transform="rotate(-90 60 60)"/></svg>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-dot"></span>
+        DI
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Tech Stack</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#certificates" class="nav__link">Certificates</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 6-10"/></svg>
+            Data Analyst & Automation
+          </p>
+          <h1 class="hero__title">Denitsa Ilieva</h1>
+          <p class="hero__position">Junior Data & Automation Analyst · KPMG Bulgaria</p>
+          <p class="hero__bio">
+            Information Technology student with hands-on experience in data analysis, automation, and business reporting. Skilled in SQL, Python, Power BI, and Excel, with a strong interest in turning data into meaningful insights and improving business processes.
+          <div class="hero__actions">
+            <a href="assets/cv/Denitsa-Ilieva-CV.pdf" class="btn btn--primary" download="Denitsa-Ilieva-CV.pdf">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+          <!-- Mini stats -->
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__value" data-count="5">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Data Tools</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value" data-count="15">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Certificates</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value" data-count="30">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Technical Skills</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__photo-wrap">
+            <div class="hero__photo-ring"></div>
+            <img src="assets/images/profile_picture.PNG" alt="Denitsa Ilieva" class="hero__photo" width="380" height="380">
+            <!-- Floating chart card -->
+            <div class="hero__chart-card">
+              <svg viewBox="0 0 160 80" class="hero__mini-chart">
+                <defs>
+                  <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path d="M0,60 L20,45 L40,55 L60,30 L80,40 L100,20 L120,35 L140,15 L160,25" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M0,60 L20,45 L40,55 L60,30 L80,40 L100,20 L120,35 L140,15 L160,25 L160,80 L0,80 Z" fill="url(#chartGrad)"/>
+              </svg>
+              <span class="hero__chart-label">Data in Action  </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Personal Info -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">01 — About</span>
+          <h2 class="section__title">Personal Information</h2>
+        </div>
+        <div class="about__grid">
+          <div class="card card--glass about__details">
+            <h3 class="card__title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              Basic Details
+            </h3>
+            <ul class="detail-list">
+              <li class="detail-list__item">
+                <span class="detail-list__icon">👤</span>
+                <div>
+                  <span class="detail-list__label">Name</span>
+                  <span class="detail-list__value">Denitsa Ilieva</span>
+                </div>
+              </li>
+              <li class="detail-list__item">
+                <span class="detail-list__icon">📧</span>
+                <div>
+                  <span class="detail-list__label">Email</span>
+                  <a href="mailto:denitsailievaa@gmail.com" class="detail-list__value detail-list__link">denitsailievaa@gmail.com</a>
+                </div>
+              </li>
+              <li class="detail-list__item">
+                <span class="detail-list__icon">📱</span>
+                <div>
+                  <span class="detail-list__label">Phone</span>
+                  <a href="tel:+359897886866" class="detail-list__value detail-list__link">+359 89 788 6866</a>
+                </div>
+              </li>
+              <li class="detail-list__item">
+                <span class="detail-list__icon">📍</span>
+                <div>
+                  <span class="detail-list__label">Location</span>
+                  <span class="detail-list__value">Sofia, Bulgaria</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card card--glass about__education">
+            <h3 class="card__title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              Education
+            </h3>
+            <div class="education-item">
+              <div class="education-item__icon">
+                <img src="assets/images/education/tu-sofia.png" alt="TU Sofia" width="48" height="48">
+              </div>
+              <div class="education-item__content">
+                <h4 class="education-item__school">Technical University of Sofia</h4>
+                <p class="education-item__degree">Information Technologies in Industry</p>
+                <p class="education-item__period">2021 — Present</p>
+                <p class="education-item__desc">Specialization in IT systems, databases, data analysis, and business processes in an industrial context.</p>
+                <p class="skills-acquired__label">Skills acquired:</p>
+                <ul class="skills-acquired">
+                  <li>Programming fundamentals (Python, SQL)</li>
+                  <li>Database systems &amp; data modeling</li>
+                  <li>Mathematics &amp; statistical methods</li>
+                  <li>Industrial IT systems &amp; business processes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">02 — Skills</span>
+          <h2 class="section__title">Tech Stack</h2>
+          <p class="section__subtitle">Tools and technologies I work with every day</p>
+        </div>
+        <div class="skills__grid">
+          <div class="card skill-card skill-card--advanced">
+            <div class="skill-card__header">
+              <span class="skill-card__level">Intermediate</span>
+              <div class="skill-card__bars" aria-hidden="true">
+                <span class="active"></span><span class="active"></span><span class="active"></span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-tag">Python</span></li>
+              <li><span class="skill-tag">SharePoint</span></li>
+              <li><span class="skill-tag">Excel</span></li>
+              <li><span class="skill-tag">Power BI</span></li>
+              <li><span class="skill-tag">Power Query</span></li>
+              <li><span class="skill-tag">Data Visualization</span></li>
+              <li><span class="skill-tag">Data Processing</span></li>
+              <li><span class="skill-tag">HTML</span></li>
+              <li><span class="skill-tag">Mathematics</span></li>
+              <li><span class="skill-tag">Power Query</span></li>
+            </ul>
+          </div>
+          <div class="card skill-card skill-card--intermediate">
+            <div class="skill-card__header">
+              <span class="skill-card__level">Basic</span>
+              <div class="skill-card__bars" aria-hidden="true">
+                <span class="active"></span><span class="active"></span><span></span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-tag">SQL</span></li>
+              <li><span class="skill-tag">Process</span></li>
+              <li><span class="skill-tag">Power Apps</span></li>
+              <li><span class="skill-tag">RPA</span></li>
+              <li><span class="skill-tag">VBA</span></li>
+              <li><span class="skill-tag">CSS</span></li>
+              <li><span class="skill-tag">NumPy</span></li>
+              <li><span class="skill-tag">Power Automate</span></li>
+              <li><span class="skill-tag">Pandas</span></li>
+              <li><span class="skill-tag">Data Types</span></li>
+              <li><span class="skill-tag">Data Collection</span></li>
+              <li><span class="skill-tag">Business Intelligence</span></li>
+            </ul>
+          </div>
+          <div class="card skill-card skill-card--familiar">
+            <div class="skill-card__header">
+              <span class="skill-card__level">Familiar</span>
+              <div class="skill-card__bars" aria-hidden="true">
+                <span class="active"></span><span></span><span></span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-tag">UiPath</span></li>
+              <li><span class="skill-tag">Preprocessing</span></li>
+              <li><span class="skill-tag">SAP Abap</span></li>
+              <li><span class="skill-tag">Database Systems</span></li>
+              <li><span class="skill-tag">QA</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Skill visualization -->
+        <div class="skills__chart card card--glass">
+          <h3 class="card__title">Proficiency Overview</h3>
+          <div class="radar-chart" id="radarChart">
+            <svg viewBox="0 0 300 300" class="radar-chart__svg">
+              <g class="radar-grid" transform="translate(150,150)">
+                <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="none" stroke="rgba(168,85,247,0.15)" stroke-width="1"/>
+                <polygon points="0,-66 57.7,-33 57.7,33 0,66 -57.7,33 -57.7,-33" fill="none" stroke="rgba(168,85,247,0.15)" stroke-width="1"/>
+                <polygon points="0,-33 28.9,-16.5 28.9,16.5 0,33 -28.9,16.5 -28.9,-16.5" fill="none" stroke="rgba(168,85,247,0.15)" stroke-width="1"/>
+                <line x1="0" y1="-100" x2="0" y2="100" stroke="rgba(168,85,247,0.1)"/>
+                <line x1="-86.6" y1="-50" x2="86.6" y2="50" stroke="rgba(168,85,247,0.1)"/>
+                <line x1="-86.6" y1="50" x2="86.6" y2="-50" stroke="rgba(168,85,247,0.1)"/>
+              </g>
+              <polygon class="radar-data" points="150,70 210,95 210,155 150,180 90,155 90,95" fill="rgba(192,132,252,0.25)" stroke="#a855f7" stroke-width="2"/>
+              <g class="radar-labels" font-size="11" fill="#6b7280">
+                <text x="150" y="38" text-anchor="middle">Data Analysis</text>
+                <text x="230" y="100" text-anchor="start">Power BI</text>
+                <text x="230" y="170" text-anchor="start">SQL</text>
+                <text x="150" y="215" text-anchor="middle">Data Collection</text>
+                <text x="70" y="170" text-anchor="end">Python</text>
+                <text x="70" y="100" text-anchor="end">Excel</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">03 — Career</span>
+          <h2 class="section__title">Professional Experience</h2>
+        </div>
+        <div class="experience__grid">
+          <article class="card experience-card">
+            <div class="experience-card__logo">
+              <img src="assets/images/companies/kpmg.svg" alt="KPMG Bulgaria" width="80" height="80">
+            </div>
+            <div class="experience-card__content">
+              <span class="experience-card__period">May 2026 — Present</span>
+              <h3 class="experience-card__position">RPA Operation and Support Analyst</h3>
+              <p class="experience-card__company">KPMG Bulgaria</p>
+              <p class="experience-card__desc">
+                Supporting the development and maintenance of RPA and Power Platform solutions, with a focus
+                on process automation, data analysis, reporting, and operational support. Working with business
+                data and automation tools to improve process efficiency, monitoring, and reliability.
+              </p>
+              <p class="skills-acquired__label">Skills acquired:</p>
+              <ul class="skills-acquired">
+                <li>Power BI dashboards and reporting for automation performance and operational KPIs</li>
+                <li>Power Query &amp; Excel for data transformation, cleaning, analysis, and reporting</li>
+                <li>Power Automate workflows for business process automation</li>
+                <li>Microsoft Lists, SharePoint &amp; Power Apps for process management and internal solutions</li>
+                <li>RPA process monitoring, troubleshooting, and error investigation</li>
+                <li>VBA &amp; Excel automation for repetitive business tasks</li>
+                <li>Collaboration with teams to identify automation opportunities and improve existing processes</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">04 — Work</span>
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">Selected projects with visualizations and analysis</p>
+        </div>
+        <div class="projects">
+          <div class="projects__carousel">
+            <div class="projects__track">
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project/1.png" alt="Operations Center Overview & User Guide" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · DATA VISUALIZATION</span>
+                  <h3 class="project-slide__title">Operations Center Overview and User Guide</h3>
+                  <p class="project-slide__desc">
+                    Provides an overview of the available analytics pages, key metrics, filters, and their purpose, helping users quickly navigate the dashboard and understand the available insights.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project/2.png" alt="Operations Performance Monitoring" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · DATA VISUALIZATION</span>
+                  <h3 class="project-slide__title">Operations Performance Monitoring</h3>
+                  <p class="project-slide__desc">
+                    Provides a centralized view of performance, request volume, success rates, errors, and time savings, helping developers monitor overall activity and quickly identify processes that may require attention.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project/3.png" alt="Error Pattern & Trend Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · DATA VISUALIZATION</span>
+                  <h3 class="project-slide__title">Error Pattern and Trend Analysis</h3>
+                  <p class="project-slide__desc">
+                    Analyzes error patterns, trends, and process-level issues to help developers identify recurring problems, investigate recent changes, and prioritize troubleshooting efforts.
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project/4.png" alt="Process & Workload Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · DATA VISUALIZATION</span>
+                  <h3 class="project-slide__title">Process and Workload Analysis</h3>
+                  <p class="project-slide__desc">
+                    Provides a detailed view of process usage and workload distribution across companies, helping developers identify high-volume areas, investigate performance, and prioritize optimization efforts.
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project/5.png" alt="Interactive Tooltips" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · DATA VISUALIZATION</span>
+                  <h3 class="project-slide__title">Interactive Tooltips</h3>
+                  <p class="project-slide__desc">
+                    Provides additional context and detailed information when users interact with dashboard visuals, making the analysis easier to understand without adding visual clutter.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__controls">
+            <button class="projects__btn projects__btn--prev" type="button" aria-label="Previous slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="projects__dots"></div>
+            <button class="projects__btn projects__btn--next" type="button" aria-label="Next slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+
+<div class="projects">
+          <div class="projects__carousel">
+            <div class="projects__track">
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project Main/All.png" alt="Sales Dashboard" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · EXCEL · SHAREPOINT</span>
+                  <h3 class="project-slide__title">Overall RPA Performance Overview</h3>
+                  <p class="project-slide__desc">
+                    Provides a complete overview of the available data, including total requests, success rate, hours saved, saved time, and financial impact. The dashboard combines KPI cards, charts, and detailed tables to support quick performance analysis.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project Main/MTD.png" alt="Customer Churn Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · EXCEL · SHAREPOINT</span>
+                  <h3 class="project-slide__title">Month-to-Date RPA Performance</h3>
+                  <p class="project-slide__desc">
+                    Shows performance for the current month with dynamically updated KPIs and visualizations. Users can review request volume, success rate, processing time, time saved, and financial impact for the selected period.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project Main/YTD.png" alt="Financial Reporting Automation" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · EXCEL · SHAREPOINT</span>
+                  <h3 class="project-slide__title">Year-to-Date RPA Performance</h3>
+                  <p class="project-slide__desc">
+                    Provides a cumulative view of performance for the current year. The dashboard allows users to examine overall activity, efficiency metrics, and financial impact from the beginning of the year to the selected date.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project Main/Last Month.png" alt="Financial Reporting Automation" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · EXCEL · SHAREPOINT</span>
+                  <h3 class="project-slide__title">Previous Month Analysis</h3>
+                  <p class="project-slide__desc">
+                    Focuses on the performance recorded during the previous month. Key indicators and detailed tables provide a clear view of activity, efficiency, time savings, and financial impact.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-2/All/Project Main/Last Year.png" alt="Financial Reporting Automation" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">POWER BI · DAX · POWER QUERY · EXCEL · SHAREPOINT</span>
+                  <h3 class="project-slide__title">Previous Year Analysis</h3>
+                  <p class="project-slide__desc">
+                    Provides a historical view of performance across the previous year. Users can explore overall activity, success rates, time savings, and financial impact through aggregated KPIs and detailed breakdowns.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__controls">
+            <button class="projects__btn projects__btn--prev" type="button" aria-label="Previous slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="projects__dots"></div>
+            <button class="projects__btn projects__btn--next" type="button" aria-label="Next slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+
+<div class="projects">
+          <div class="projects__carousel">
+            <div class="projects__track">
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-1/1.png" alt="Sales / Market Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">Python · Pandas · Matplotlib</span>
+                  <h3 class="project-slide__title">Sales / Market Analysis</h3>
+                  <p class="project-slide__desc">
+                    Comparison of international markets by total revenue, highlighting the strongest-performing countries outside the UK.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-1/2.png" alt="Revenue Trend Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">Python · Pandas · Matplotlib</span>
+                  <h3 class="project-slide__title">Revenue Trend Analysis</h3>
+                  <p class="project-slide__desc">
+                    Monthly revenue analysis used to identify sales patterns, fluctuations, and periods of stronger business performance.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-1/3.png" alt="Product Performance Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">PYTHON · PANDAS · SEABORN</span>
+                  <h3 class="project-slide__title">Product Performance Analysis</h3>
+                  <p class="project-slide__desc">
+                    Identification of the best-selling products based on sales volume to highlight high-demand items and product performance patterns.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-1/4.png" alt="Geographic Sales Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">PYTHON · PANDAS · MATPLOTLIB · SEABORN</span>
+                  <h3 class="project-slide__title">Geographic Sales Analysis</h3>
+                  <p class="project-slide__desc">
+                    Analysis of revenue distribution across countries to identify key markets and compare their contribution to overall sales.
+                  </p>
+                </div>
+              </div>
+              <div class="project-slide">
+                <div class="project-slide__image">
+                  <img src="assets/images/projects/project-1/5.png" alt="Customer Segmentation — RFM Analysis" loading="lazy">
+                </div>
+                <div class="project-slide__content">
+                  <span class="project-slide__tag">PYTHON · PANDAS · MATPLOTLIB</span>
+                  <h3 class="project-slide__title">Customer Segmentation — RFM Analysis</h3>
+                  <p class="project-slide__desc">
+                    Customer behavior analysis using Recency, Frequency, and Monetary value to identify different customer groups based on purchasing activity and value.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__controls">
+            <button class="projects__btn projects__btn--prev" type="button" aria-label="Previous slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="projects__dots"></div>
+            <button class="projects__btn projects__btn--next" type="button" aria-label="Next slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">05 — Certificates</span>
+          <h2 class="section__title">Certificates</h2>
+        </div>
+        <div class="certificates__grid">
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/SQL.jpg" alt="SQL Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-09">September 2026 • Udemy</time>
+              <h3 class="certificate-card__title">The Complete SQL Bootcamp</h3>
+              <a href="https://www.udemy.com/certificate/UC-95be8abb-751a-411d-ad88-c39bd8831724/" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/powerbi4.png" alt="VBA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-08">August 2026 • Pluralsight</time>
+              <h3 class="certificate-card__title">Microsoft Power BI Data Analyst (PL-300): Manage and Secure Power BI</h3>
+              <a href="https://app.pluralsight.com/achievements/share/e6eb8813-c334-49d9-84a9-7c375332ed5b" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/powerbi3.png" alt="Power BI Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-08">August 2026 • Pluralsight</time>
+              <h3 class="certificate-card__title">Microsoft Power BI Data Analyst (PL-300): Model the Data</h3>
+              <a href="https://app.pluralsight.com/achievements/share/b761fa77-3e1a-47d7-9f2c-03b07ef886f0" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/powerbi2.png" alt="Power BI Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-08">August 2026 • Pluralsight</time>
+              <h3 class="certificate-card__title">Microsoft Power BI Data Analyst (PL-300): Prepare the Data</h3>
+              <a href="https://app.pluralsight.com/achievements/share/637bc214-06c3-40da-9c43-29b59d59c1c4" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/powerbi1.png" alt="Power BI Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-08">August 2026 • Pluralsight</time>
+              <h3 class="certificate-card__title">Microsoft Power BI Data Analyst (PL-300): Visualize and Analyze the Data</h3>
+              <a href="https://app.pluralsight.com/achievements/share/408da85d-1e18-4282-b606-3a968930874c" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/vba.png" alt="VBA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-08">August 2026 • Pluralsight</time>
+              <h3 class="certificate-card__title">Up and Running with VBA in Microsoft Excel</h3>
+              <a href="https://app.pluralsight.com/achievements/share/60c77e14-ed77-41fe-88f3-a107dc511610" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/uipath.jpeg" alt="UiPath Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-07">July 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">UiPath Studio Essential Training</h3>
+              <a href="https://www.linkedin.com/learning/certificates/fb01fb4f24a71b9bf97bd0fe57ca526e796fdfc8f9350e684f448ea13054fbb2?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/rpa.jpeg" alt="RPA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-07">July 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">Introducing Robotic Process Automation</h3>
+              <a href="https://www.linkedin.com/learning/certificates/d46a067ddb62094db9385f56458782455686623f481b3c3ae26eda4a06b59f5f?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/vba_linkedin.jpeg" alt="VBA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-06">June 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">Excel: Learning VBA</h3>
+              <a href="https://www.linkedin.com/learning/certificates/704697af19a1cd7ccd9b07d3044ba73aaa46db963d7f7c636ee1bb9fad32b6ce?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/vba_excel.jpeg" alt="VBA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-06">June 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">Excel: Macros and VBA for Beginners</h3>
+              <a href="https://www.linkedin.com/learning/certificates/ea0711334add556e9cbad4268696bcd5e9d286d04015789aa783704e0efb0e8c?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/power_automate.jpeg" alt="Power Automate Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-05">May 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">Microsoft Power Automate Essential Training</h3>
+              <a href="https://www.linkedin.com/learning/certificates/0aeb06b17f8afaa4c8098c563afe4665596a84dc204d11874673ed242c57548e?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/power_bi.jpeg" alt="Power BI Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-06">May 2026 • LinkedIn Learning</time>
+              <h3 class="certificate-card__title">Power BI Essential Training</h3>
+              <a href="https://www.linkedin.com/learning/certificates/714c3eb2a3f2da1789f2f1cf1f993343d2eaa4f39ee69d608c73a452b76b0249?trk=share_certificate" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/data-analyst.jpg" alt="Data Analyst Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2026-03">March 2026 • Udemy</time>
+              <h3 class="certificate-card__title">Complete Data Analyst Bootcamp</h3>
+              <a href="https://www.udemy.com/certificate/UC-03812768-7407-42b6-b54a-821782947c45/" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/python.png" alt="Programming Basics Python Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2025-02">February 2025 • SoftUni</time>
+              <h3 class="certificate-card__title">Programming Basics Python</h3>
+              <a href="https://softuni.bg/certificates/details/237358/ca6eb43a" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="card certificate-card">
+            <div class="certificate-card__image">
+              <img src="assets/images/certificates/qa.png" alt="QA Certificate" loading="lazy">
+            </div>
+            <div class="certificate-card__body">
+              <time class="certificate-card__date" datetime="2024-07">July 2024 • SoftUni</time>
+              <h3 class="certificate-card__title">QA - Basics</h3>
+              <a href="https://softuni.bg/certificates/details/220931/08d2bf6f" class="certificate-card__link" target="_blank" rel="noopener noreferrer">
+                View certificate
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <span class="section__tag">06 — Contact</span>
+          <h2 class="section__title">Get in Touch</h2>
+          <p class="section__subtitle">Open to new opportunities and collaborations</p>
+        </div>
+        <div class="contact__grid">
+          <a href="mailto:denitsailievaa@gmail.com" class="card contact-card">
+            <div class="contact-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">denitsailievaa@gmail.com</span>
+          </a>
+          <a href="tel:+359897886866" class="card contact-card">
+            <div class="contact-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+359 89 788 6866</span>
+          </a>
+          <a href="https://www.linkedin.com/in/denitsa-ilieva-84401534b/" class="card contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">Denitsa Ilieva</span>
+          </a>
+          <a href="https://github.com/DenitsaIlieva3" class="card contact-card" target="_blank" rel="noopener noreferrer">
+            <div class="contact-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </div>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">denitsa-ilieva</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Denitsa Ilieva. All rights reserved.</p>
+      <a href="#hero" class="footer__top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+    <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Full size image">
+      <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__image" id="lightboxImage" src="" alt="">
+        <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

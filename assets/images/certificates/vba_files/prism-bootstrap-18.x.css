@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+#ps-container {
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+}
+
+#ps-chrome {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 56px;
+}
+
+#ps-main {
+  position: relative;
+}
+
+body:not(.ps-prism--loaded) #ps-main {
+  max-width: 1600px;
+  width: 100%;
+}

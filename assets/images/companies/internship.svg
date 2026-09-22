@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="8" fill="#f3e8ff"/>
+  <rect x="20" y="18" width="40" height="30" rx="4" fill="#9333ea" opacity="0.2"/>
+  <rect x="24" y="22" width="32" height="4" rx="2" fill="#9333ea"/>
+  <rect x="24" y="30" width="24" height="3" rx="1.5" fill="#c084fc"/>
+  <rect x="24" y="37" width="28" height="3" rx="1.5" fill="#c084fc"/>
+  <circle cx="40" cy="58" r="12" fill="#ec4899" opacity="0.3"/>
+  <text x="40" y="62" text-anchor="middle" fill="#9333ea" font-family="Arial,sans-serif" font-size="8" font-weight="bold">Intern</text>
+</svg>
